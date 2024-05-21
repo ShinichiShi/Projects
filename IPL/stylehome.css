@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   html{
+    background-color: black;
+   }
+   body {
+    font-family: Arial, sans-serif;
+   }
+   
+   header {
+    /* background-color: blue; */
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/2149385873/display_1500/stock-vector-dark-abstract-background-with-glowing-wave-shiny-moving-lines-design-element-modern-purple-blue-2149385873.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+   }
+   
+   header a {
+    color: rgb(164, 210, 47);
+    text-decoration: none;
+    margin-left: 1rem;
+   }
+   
+   header .logo {
+    font-size: 2rem;
+   }
+   
+   nav ul {
+    display:flex;
+    gap:100px;
+    list-style: none;
+   }
+   
+   main {
+    padding: 2rem;
+    background-image: url('https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2023/03/23/233480-instagram.jpg?itok=1vnVx3T5');
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+   }
+   
+   footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+   }
+   /* .head{
+    background-color: blue;
+   } */
+   .hov:hover{
+    color:orangered;
+    cursor: pointer;
+   }
+   .homeimg{
+    width: 100%;
+   }
+   #rt{
+      width:10%;
+      margin-left: 210%;
+      margin-bottom: -5%;
+   }
+   .blur{
+    /* border: 2px solid black; */
+    /* background-color: rgba(212, 207, 190, 0.999); */
+    /* background-image: url('https://assets.iplt20.com/bcci/articles/1705737695_Tata%20IPL%20Thumbnail.webp');
+    
+    background-size: cover;
+    background-position: center; */
+    /* opacity: 60%; */
+    /* text-decoration-color:black ; */
+    
+   }
+   .lisf{
+    list-style-type: none;
+   }
+   .lisf li{
+    display: inline; /* or inline-block */
+    margin-right: 10px;
+    text-align:center;
+    color:rgb(196, 201, 198);
+    font-weight: 200;
+    /* text-decoration-color: black; */
+   }
+   
+   .li1 a{
+       font-style: italic;
+       text-decoration: underline;
+   }
+   section h2{
+        text-decoration:underline;
+        text-decoration-color: rgb(23, 46, 193);
+        text-align: center;
+   }

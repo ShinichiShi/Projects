@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.clock{
+    /* position: absolute; */
+    /* position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); *without this also it works coz the main is absolute*/ 
+    font-size: 5vw; 
+    /* 5vw is responsive; */
+}
+.main{
+    position: absolute; /*positioned itself to the nearest ancestor that is html body...*/
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    
+}
+button{
+    height: 5vh;
+    width: 11vw;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 1.5vw;
+    background-color: lime;
+    border: 2px solid black;
+    border-radius: 10px;
+}   
